@@ -1,0 +1,146 @@
+html {
+    font-family: sans-serif;
+    margin: auto;
+}
+
+body {
+    background: gray;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+img {
+    border: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 650px;
+ }
+
+.place {
+    background-color: #FFFBE4;
+    border-color: #CCC #999 #999 #CCC;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.place h2 {
+    border-bottom: 1px dashed black;
+    margin: 0;
+}
+
+.place a {
+    color: rgb(61, 61, 255);
+    font-weight: bold;
+}
+
+.place img {
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+ }
+
+ .sidenote {
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    float: right;
+    padding: 10px;
+    width: 260px;
+}
+
+.sidenote h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.sidenote ol {
+    font-size: 12px;
+}
+
+/*Daqui pra baixo o CSS pagina das tags*/
+.total{
+    width: auto;
+    display: flex;
+}
+#container_tag{
+    margin: 0 auto;
+    padding-top: 5px; 
+    width: 50%;
+    padding-left: 5px;
+    float: left;
+}
+h2 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h3 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.tags {
+    background-color: darkgray;
+    border-color: #ABA795;
+    border: 3px solid #CCC;     
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.linha{
+    border-top: 1px dashed #000000;
+}
+.mozilla{
+    color: darkblue;
+}
+.page{
+    color: darkblue;
+}
+.sobre{
+    padding: 10px;
+
+}
+.tags img {
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+/*Daqui pra baixo CSS da parte dos seletores de tags*/
+#container_css{
+    margin: 0 auto; 
+    width: 50%;
+    padding: 5px;
+    float: right;
+}
+h2 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h3 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+.seletores {
+    background-color: darkgray;
+    border-color: #ABA795;
+    border: 3px solid #CCC;     
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.linha{
+    border-top: 1px dashed #000000;
+}
+.seletores img {
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
